@@ -59,3 +59,32 @@
   position: relative;
   bottom: 6.7rem;
 }
+
+@media screen and (max-width: 850px) {
+  .img-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    row-gap: 2rem;
+  }
+
+  .part5 {
+    position: static;
+  }
+
+  .part4,
+  .part6 {
+    position: relative;
+    top: 4rem;
+  }
+  .container {
+    height: 170vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .img-container {
+    grid-template-columns: 1fr;
+    margin-top: 6rem;
+    row-gap: 0.5rem;
+  }
+}
