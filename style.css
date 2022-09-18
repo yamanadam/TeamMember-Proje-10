@@ -85,6 +85,14 @@
   .img-container {
     grid-template-columns: 1fr;
     margin-top: 6rem;
-    row-gap: 0.5rem;
+    gap: 1rem;
+  }
+  .container {
+    height: 320vh;
+  }
+  .part2,
+  .part6,
+  .part4 {
+    position: static;
   }
 }
